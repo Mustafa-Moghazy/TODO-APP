@@ -1,0 +1,25 @@
+<header class="mb-4 mt-5">
+  <div class="row">
+    <div class="col text-center">
+      <h1 class="mb-4">TODO APP</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          [(ngModel)]="newTaskName"
+          placeholder="Enter new task"
+          (keyup.enter)="onAddTask()"
+        />
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" (click)="onAddTask()">
+            Add Task
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

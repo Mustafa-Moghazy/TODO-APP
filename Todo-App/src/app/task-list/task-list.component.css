@@ -1,0 +1,8 @@
+.deleted {
+  background-color: #f8d7da; /* Light red background color */
+}
+.deleted .delete-icon {
+  display: inline-block;
+  color: #721c24; /* Dark red color */
+  margin-left: 5px;
+}
